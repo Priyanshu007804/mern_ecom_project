@@ -61,7 +61,7 @@ const Header = () => {
       <div className="h-full container mx-auto flex items-center px-4 justify-between">
         <Link to={'/'} className="logo">
           {/* <Logo w={90} h={50} /> */}
-          <img src={Logo} className="object-scale-down w-55 h-14 mix-blend-multiply"/>
+          <img src={Logo} className="object-scale-down w-53 h-12 mix-blend-multiply"/>
         </Link>
 
         {
@@ -83,7 +83,7 @@ const Header = () => {
         
 
         <div className="flex items-center gap-7">
-          <div className="relative flex justify-center">
+          <div className="hidden relative lg:flex justify-center">
             {user?._id && (
               <div
                 onClick={onMenuClick}
