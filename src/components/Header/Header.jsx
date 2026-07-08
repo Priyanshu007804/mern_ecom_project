@@ -83,7 +83,7 @@ const Header = () => {
         
 
         <div className="flex items-center gap-7">
-          <div className="relative flex justify-center">
+          <div className="hidden  relative lg:flex justify-center">
             {user?._id && (
               <div
                 onClick={onMenuClick}

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import SummaryApi from '../../common';
 import { Link } from 'react-router-dom';
 import "./CategoryList.css"
+
 const CategoryList = () => {
 
     const [categoryProduct, setCategoryProduct]= useState([]);
