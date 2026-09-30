@@ -1,4 +1,4 @@
-const backendDomain = "https://mern-ecom-backend-rss3.onrender.com"
+const backendDomain = "https://mern-ecom-backend-1-7l3s.onrender.com"
  const SummaryApi= {
     signUp:{
         url: `${backendDomain}/api/signup`,
