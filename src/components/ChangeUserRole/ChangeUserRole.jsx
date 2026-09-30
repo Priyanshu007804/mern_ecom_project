@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import ROLE from '../../common/ROLE.JS'
+import ROLE from '../../common/role.js'
 import { MdClose } from "react-icons/md";
 import SummaryApi from '../../common';
 import { toast } from 'react-toastify';
